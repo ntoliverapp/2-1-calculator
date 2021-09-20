@@ -38,6 +38,10 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(Math.pow(num1, 2), Math.pow(num2, 2))
 	}
 
+	if (mathSymbol === "cb"){
+		console.log(Math.pow(num1, 3), Math.pow(num2, 3))
+	}
+
 	console.log('mathSymbol', mathSymbol);
             console.log('num1', num1);
             console.log('num2', num2);
