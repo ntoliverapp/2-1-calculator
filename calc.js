@@ -24,7 +24,7 @@ reader.question("What would you like to calculate?", function(input){
   }	
 
 	if (mathSymbol === "*"){
-		console.log(num1 * num2);
+		console.log(num1 * num2 * num3);
   }	
 
 	if (mathSymbol === "/"){
